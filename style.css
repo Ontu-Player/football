@@ -1,0 +1,153 @@
+/*! reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/**! :::::::::: common or utilities :::::::::::*/
+body {
+  font-family: "Poppins", sans-serif;
+}
+/*! :::::::: nav section start::::::::::*/
+nav {
+  display: flex;
+  justify-content: space-around;
+
+  background-color: #2d25a0;
+  align-items: center;
+  padding: 50px 201px;
+}
+
+nav ul {
+  flex: 2;
+  text-align: left;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+.button {
+  background-color: #e02c6d;
+  color: white;
+  padding: 12px 32px;
+}
+.button a {
+  text-decoration: none;
+  color: white;
+  margin: 0px 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/*! :::::::: nav section end::::::::::*/
+
+/*! :::::::: Hero section ::::::::::*/
+.hero_section {
+  width: 100%;
+  background-color: #2d25a0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 85vh;
+}
+
+.left_box h1 {
+  font-size: 80px;
+  line-height: 110px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.button_box {
+  color: white;
+  background-color: #e02c6d;
+  text-decoration: none;
+  /* padding: 30px; */
+  padding: 15px 27px;
+}
+
+.right_box img {
+  width: 700px;
+}
+
+/* player section */
+.player_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.player_box {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.player {
+  width: 330px;
+  height: 474px;
+  padding: 15px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  margin: 2px;
+  border-radius: 5px;
+}
+
+.player img {
+  width: 300px;
+}
+
+.player_highlight_section {
+  height: 60vh;
+  padding: 60px;
+  margin-top: 100px;
+}
+
+.highlight_container {
+  /* height: 60vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.highlight_left_box {
+  flex: 0.5;
+  margin-left: 10px;
+}
+
+.highlight_left_box p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6c6c6c;
+  margin-bottom: 30px;
+}
+
+.highlight_left_box h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.highlight_right_box img {
+  width: 567px;
+  height: 427px;
+  margin-left: 30px;
+}
