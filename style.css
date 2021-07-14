@@ -9,31 +9,6 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-/*! :::::::: nav section start::::::::::*/
-nav {
-  display: flex;
-  justify-content: space-around;
-
-  background-color: #2d25a0;
-  align-items: center;
-  padding: 50px 201px;
-}
-
-nav ul {
-  flex: 2;
-  text-align: left;
-}
-nav ul li {
-  display: inline-block;
-  list-style: none;
-  margin: 0 15px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: white;
-  font-size: 16px;
-}
 .button {
   background-color: #e02c6d;
   color: white;
@@ -42,15 +17,6 @@ nav ul li a {
   box-shadow: inset 0 0 0 0 #f9e506;
   transition: ease-out 0.3s;
   outline: none;
-}
-.button a {
-  text-decoration: none;
-  color: white;
-  margin: 0px 8px;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
 }
 
 /*! :::::::: nav section end::::::::::*/
