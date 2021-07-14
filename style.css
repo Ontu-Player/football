@@ -222,7 +222,7 @@ nav ul li a {
     margin-top: 70px;
   }
   .button_box {
-    padding: 17px 70px;
+    padding: 15px 40px;
     font-size: 25px;
   }
 
@@ -256,8 +256,8 @@ nav ul li a {
     flex-direction: column;
   }
   .highlight_right_box img {
-    width: 328px;
-    height: 248px;
+    width: 477px;
+    height: 349px;
     margin-top: 30px;
     padding: 0;
   }
