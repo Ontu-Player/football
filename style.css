@@ -38,6 +38,7 @@ nav ul li a {
   background-color: #e02c6d;
   color: white;
   padding: 12px 32px;
+  text-decoration: none;
 }
 .button a {
   text-decoration: none;
@@ -51,7 +52,7 @@ nav ul li a {
 
 /*! :::::::: nav section end::::::::::*/
 
-/*! :::::::: Hero section ::::::::::*/
+/*! :::::::: Hero section start ::::::::::*/
 .hero_section {
   width: 100%;
   background-color: #2d25a0;
@@ -76,7 +77,7 @@ nav ul li a {
   color: white;
   background-color: #e02c6d;
   text-decoration: none;
-  /* padding: 30px; */
+
   padding: 15px 27px;
 }
 
@@ -84,7 +85,10 @@ nav ul li a {
   width: 700px;
 }
 
-/* player section */
+/*! :::::::: Hero section start ::::::::::*/
+
+/*! :::::::: Player Section Start ::::::::::*/
+
 .player_section {
   display: flex;
   align-items: center;
@@ -110,6 +114,9 @@ nav ul li a {
   width: 300px;
 }
 
+/*! :::::::: Player Section End ::::::::::*/
+
+/*! :::::::: Player HIghlight Section Start ::::::::::*/
 .player_highlight_section {
   height: 60vh;
   padding: 60px;
@@ -117,7 +124,6 @@ nav ul li a {
 }
 
 .highlight_container {
-  /* height: 60vh; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -150,4 +156,121 @@ nav ul li a {
   width: 567px;
   height: 427px;
   margin-left: 30px;
+}
+/*! :::::::: Player Highlight Section End ::::::::::*/
+
+/*! :::::::: Footer start ::::::::::*/
+
+.footer-container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30vh;
+}
+
+.footer-container img {
+  width: 485px;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.icon i {
+  font-size: 20px;
+  width: 35px;
+  height: 35px;
+  color: #969bab;
+  background-color: #80808040;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.footer-container h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+/*! :::::::: Footer end ::::::::::*/
+
+/*! :::::::: Media Quarry ::::::::::*/
+
+/** :::::::: For Mobile ::::::::::*/
+@media screen and (max-width: 700px) {
+  .hero_section {
+    padding-bottom: 100px;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .left_box h1 {
+    margin-top: 93px;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 700;
+  }
+  .right_box img {
+    width: 400px;
+    margin-top: 70px;
+  }
+  .button_box {
+    padding: 17px 70px;
+    font-size: 25px;
+  }
+
+  .player_box {
+    grid-template-columns: 1fr;
+    grid-gap: 13px;
+  }
+
+  .player {
+    width: 450px;
+    height: 650px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin: 2px;
+    border-radius: 5px;
+  }
+  .player img {
+    width: 420px;
+  }
+  .player h3 {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 10px 0;
+  }
+  .player p {
+    font-size: 19px;
+    line-height: 40px;
+    color: grey;
+  }
+  .highlight_container {
+    flex-direction: column;
+  }
+  .highlight_right_box img {
+    width: 328px;
+    height: 248px;
+    margin-top: 30px;
+    padding: 0;
+  }
+  .footer-container img {
+    width: 350px;
+    margin-bottom: 30px;
+  }
+  .social-icons {
+    margin-bottom: 20px;
+  }
+  footer {
+    height: 20vh;
+    margin-top: 100px;
+    margin-top: 400px;
+  }
 }
